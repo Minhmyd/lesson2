@@ -1,0 +1,29 @@
+nav {
+     display: inline-block; 
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+.gird {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.gird img {
+    width: 100%;
+}
+
+.gird {
+    justify-content: center;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
